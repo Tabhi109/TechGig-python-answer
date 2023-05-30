@@ -32,7 +32,6 @@ def get_weather_forecast(api_key, city):
     except (KeyError, IndexError):
         print("Failed to parse weather data. Please try again.")
 
-# Enter your OpenWeatherMap API key here
 API_KEY = "206d565864c5ebdb263c445f3ca630f1"
 city_name = input("Enter a city name: ")
 get_weather_forecast(API_KEY, city_name)
